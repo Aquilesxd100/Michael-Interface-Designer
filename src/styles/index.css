@@ -1,4 +1,8 @@
 @charset "UTF-8";
+@font-face {
+    font-family: blooming;
+    src: url("../fonts/blooming.otf");
+}
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +13,4 @@ body {
     background-image: linear-gradient(to right, #6B3C3B, #181E41);
     color: #FFFFFF;
     font-weight: normal;
-}
-header {
-    margin: 15px 0 9vh 0;
 }

@@ -1,8 +1,12 @@
 import Navbar from "../components/Navbar";
-import { Typography, SvgIcon } from "@mui/material";
+import { Typography, SvgIcon, Grid } from "@mui/material";
 import EastIcon from '@mui/icons-material/East';
 import perfil from "../images/garota.png";
-import { textoHome, ImgPerfil, iconeFlecha } from "./HomeStyles";
+import { textoHome, ImgPerfil, iconeFlecha, FooterRedes, ImgRedes, nomeLateral } from "./HomeStyles";
+import dribleeIMG from "../images/vector.png";
+import mediumIMG from "../images/Shape.png";
+import behanceIMG from "../images/Vector-Be.png";
+import linkedinIMG from "../images/path18.png";
 const Icone = () => (
   <>
     <svg width={0} height={0}>
@@ -18,12 +22,25 @@ function Home() {
   return (
     <>
       <Navbar />
-      <main>
-        <Typography variant="h1" sx={{ fontWeight: "bold" }}>Michael<br/> User Interface<br/> Designer</Typography>
-        <Typography variant="subtitle1" sx={ textoHome }>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.</Typography>
-        <Typography variant="caption">Let's Talk <SvgIcon component={Icone}/></Typography>
-        <ImgPerfil src={perfil} />
-      </main>
+      <Typography variant="h1" sx={{ fontWeight: "bold" }}>Michael<br/> User Interface<br/> Designer</Typography>
+      <Typography variant="subtitle1" sx={ textoHome }>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.</Typography>
+      <Typography variant="caption">Let's Talk <SvgIcon component={Icone}/></Typography>
+      <ImgPerfil src={perfil} />
+      <Typography variant="h5" sx={ nomeLateral }>Michael</Typography>
+      <FooterRedes container>
+        <Grid item>
+          <ImgRedes src={ dribleeIMG } />
+        </Grid>
+        <Grid item>
+          <ImgRedes src={ linkedinIMG } />
+        </Grid>
+        <Grid item>
+          <ImgRedes src={ mediumIMG } />
+        </Grid>
+        <Grid item>
+          <ImgRedes src={ behanceIMG } />
+        </Grid>
+      </FooterRedes>
     </>
   );
 }

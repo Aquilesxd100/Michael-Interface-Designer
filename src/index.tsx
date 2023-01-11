@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.css';
-import Home from './pages/Home';
+import Rotas from './components/Rotas';
 import { temaPadrao } from "./temas/temaPadrao";
 import { ThemeProvider } from "@mui/material"
 const root = ReactDOM.createRoot(
@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={temaPadrao}>
-      <Home />
+      <Rotas />
     </ThemeProvider>
   </React.StrictMode>
 );

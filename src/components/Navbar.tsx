@@ -1,8 +1,9 @@
 import { Avatar, Typography, Grid } from "@mui/material";
 import { BotaoContato, imgAvatar } from "./NavbarStyles";
+import { Header } from "./NavbarStyles";
 function Navbar() {
     return(
-        <header>
+        <Header>
             <Grid container alignItems="center" justifyContent="space-between">
                 <Grid item xs={2} container>
                     <Avatar sx={ imgAvatar }>M</Avatar>
@@ -18,7 +19,7 @@ function Navbar() {
                     <BotaoContato variant="contained">Contact</BotaoContato>
                 </Grid>
             </Grid>
-        </header>
+        </Header>
     );
 }
 export default Navbar;
