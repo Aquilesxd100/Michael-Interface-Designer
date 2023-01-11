@@ -1,0 +1,15 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    padding: 0 7%;
+    background-image: linear-gradient(to right, #6B3C3B, #181E41);
+    color: #FFFFFF;
+    font-weight: normal;
+}
+header {
+    margin: 15px 0 9vh 0;
+}
