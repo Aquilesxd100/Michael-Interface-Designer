@@ -7,6 +7,9 @@ export const temaPadrao = createTheme({
       h1: {
         fontSize: "80px"
       },
+      h6: {
+        margin: "0 12px"
+      },
       subtitle1: {
         fontSize: "17px"
       },
