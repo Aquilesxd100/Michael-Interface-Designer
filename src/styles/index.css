@@ -3,6 +3,10 @@
     font-family: blooming;
     src: url("../fonts/blooming.otf");
 }
+@font-face {
+    font-family: neometric-bold;
+    src: url("../fonts/neometric-bold.otf");
+}
 * {
     margin: 0;
     padding: 0;

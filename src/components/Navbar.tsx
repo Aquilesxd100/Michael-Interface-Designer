@@ -1,5 +1,6 @@
 import { Avatar, Typography, Grid } from "@mui/material";
-import { BotaoContato, imgAvatar } from "./NavbarStyles";
+import { imgAvatar } from "./NavbarStyles";
+import { Botao } from "../styles/estilos";
 import { Header } from "./NavbarStyles";
 function Navbar() {
     return(
@@ -16,7 +17,7 @@ function Navbar() {
                     <Typography variant="h6">Portfolio</Typography>
                 </Grid>
                 <Grid item xs={2} container columnSpacing={-6}>
-                    <BotaoContato variant="contained">Contact</BotaoContato>
+                    <Botao variant="contained">Contact</Botao>
                 </Grid>
             </Grid>
         </Header>
