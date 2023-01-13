@@ -22,7 +22,9 @@ function Home() {
     <>
       <Typography variant="h1" sx={{ fontWeight: "bold" }}>Michael<br/> User Interface<br/> Designer</Typography>
       <Typography variant="subtitle1" sx={ textoHome }>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.</Typography>
-      <Typography variant="caption">Let's Talk <SvgIcon component={Icone}/></Typography>
+      <a className="destaque" href="https://mail.google.com" target="_blank">
+        <Typography variant="caption">Let's Talk <SvgIcon component={Icone}/></Typography>
+      </a>
       <ImgPerfil src={perfil} />
       <Typography variant="h5" sx={ nomeLateral }>Michael</Typography>
       <FooterRedes container>

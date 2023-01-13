@@ -27,7 +27,9 @@ function Navbar() {
                     </Link>
                 </Grid>
                 <Grid item xs={2} container columnSpacing={-6}>
-                    <Botao variant="contained">Contact</Botao>
+                    <a href="https://mail.google.com" target="_blank">
+                        <Botao variant="contained">Contact</Botao>
+                    </a>                   
                 </Grid>
             </Grid>
         </Header>

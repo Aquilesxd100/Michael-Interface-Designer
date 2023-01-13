@@ -25,6 +25,12 @@ a:hover {
 a.social:hover {
     transform: scale(1.15);
 }
+.destaque:hover {
+    border-bottom: 2px solid #EC8F58;
+}
+button:hover {
+    filter: brightness(0.9);
+}
 body {
     min-height: 100vh;
     padding: 0 7%;
