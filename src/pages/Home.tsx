@@ -1,4 +1,3 @@
-import Navbar from "../components/Navbar";
 import { Typography, SvgIcon, Grid } from "@mui/material";
 import EastIcon from '@mui/icons-material/East';
 import perfil from "../images/garota.png";
@@ -21,7 +20,6 @@ const Icone = () => (
 function Home() {
   return (
     <>
-      <Navbar />
       <Typography variant="h1" sx={{ fontWeight: "bold" }}>Michael<br/> User Interface<br/> Designer</Typography>
       <Typography variant="subtitle1" sx={ textoHome }>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.</Typography>
       <Typography variant="caption">Let's Talk <SvgIcon component={Icone}/></Typography>

@@ -7,7 +7,6 @@ import imgPontilhado from "../images/dots.png";
 function About() {
     return(
         <>
-            <Navbar />
             <Grid container spacing={6} alignItems="center" justifyContent="center" sx={{width:"100%"}}>
                 <Grid item xs={6} container justifyContent="center">
                     <BoxImagemPerfil>

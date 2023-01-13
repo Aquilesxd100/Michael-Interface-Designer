@@ -7,6 +7,10 @@
     font-family: neometric-bold;
     src: url("../fonts/neometric-bold.otf");
 }
+@font-face {
+    font-family: neometric-light;
+    src: url("../fonts/neometric-light.otf");
+}
 * {
     margin: 0;
     padding: 0;
