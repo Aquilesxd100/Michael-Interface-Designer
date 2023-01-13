@@ -2,6 +2,7 @@ import { createTheme } from "@mui/material/styles"
 export const temaPadrao = createTheme({
     gradiente: {
       padrao: "linear-gradient(45deg, #EDA356, #EA675E)",
+      padrao2: "linear-gradient(to bottom, #EA675E, #EDA356)",
     },
     typography: {
       h1: {

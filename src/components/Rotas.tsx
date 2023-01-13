@@ -1,9 +1,11 @@
 import { Route, Routes } from "react-router";
 import { BrowserRouter } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Services from "../pages/Services";
+import Portfolio from "../pages/Portfolio"
 function Rotas() {
     return (
         <BrowserRouter>

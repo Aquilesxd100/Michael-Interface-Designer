@@ -18,9 +18,3 @@ export const Titulo = styled(Typography)(() => ({
     fontSize: "22px",
     marginBottom: "8px",
 }));
-export const Texto = styled(Typography)(() => ({
-    fontSize: "14px",
-    maxWidth: "25vw",
-    fontFamily: "neometric-light",
-    color: "#FADEC9",
-}));

@@ -11,3 +11,9 @@ export const Botao = styled(Button)(() => ({
     padding: "6px 17px",
     fontSize: "17px"
 }));
+export const Texto = styled(Typography)(() => ({
+    fontSize: "14px",
+    maxWidth: "25vw",
+    fontFamily: "neometric-light",
+    color: "rgba(255, 255, 255, 0.65)",
+}));

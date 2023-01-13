@@ -4,10 +4,11 @@ import { SubTitulo, Botao } from "../styles/estilos";
 import { Typography, Grid } from "@mui/material";
 import imgPerfil from "../images/garota.png";
 import imgPontilhado from "../images/dots.png";
+import Footer from "../components/Footer";
 function About() {
     return(
         <>
-            <Grid container spacing={6} alignItems="center" justifyContent="center" sx={{width:"100%"}}>
+            <Grid container spacing={6} alignItems="center" justifyContent="center" sx={{width:"100%", marginBottom: "100px"}}>
                 <Grid item xs={6} container justifyContent="center">
                     <BoxImagemPerfil>
                         <ImagemPerfil src={ imgPerfil }/>
@@ -21,6 +22,7 @@ function About() {
                     <Botao variant="contained" sx={{ marginTop: "5%" }}>Download CV</Botao>
                 </Grid>
             </Grid>
+            <Footer />
         </>
     );
 }

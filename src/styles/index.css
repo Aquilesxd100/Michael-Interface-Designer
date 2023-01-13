@@ -15,6 +15,16 @@
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: #EC8F58;
+}
+a.social:hover {
+    transform: scale(1.15);
+}
 body {
     min-height: 100vh;
     padding: 0 7%;

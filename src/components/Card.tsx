@@ -1,4 +1,5 @@
-import { CardBox, Titulo, Texto } from "./CardStyles";
+import { CardBox, Titulo } from "./CardStyles";
+import { Texto } from "../styles/estilos";
 interface infosCard {
     icone: JSX.Element,
     titulo: string,

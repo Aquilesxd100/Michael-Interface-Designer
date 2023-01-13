@@ -8,6 +8,7 @@ import ShareIcon from '@mui/icons-material/Share';
 import PhotoCameraIcon from '@mui/icons-material/PhotoCamera';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 import Diversity3Icon from '@mui/icons-material/Diversity3';
+import Footer from "../components/Footer";
 function Services() {
     interface infoCards {
         titulo: string,
@@ -40,16 +41,19 @@ function Services() {
         },
     ];
     return(
-        <Grid container alignItems="center">
-            <Grid item xs={12}>
-                <SubTitulo sx={{textAlign: "center", marginTop: "-3vw"}}>My Best Services</SubTitulo>
-            </Grid>
-            <Grid item xs={12} container justifyContent="center">
+        <>
+            <Grid container alignItems="center">
+                    <Grid item xs={12}>
+                        <SubTitulo sx={{textAlign: "center", marginTop: "-3vw"}}>My Best Services</SubTitulo>
+                    </Grid>
+                <Grid item xs={12} container justifyContent="center">
                 { cardsLista.map((card) => {
                     return <Card icone={ card.icone } titulo={ card.titulo } texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis." />; 
                 }) }
+                </Grid>
             </Grid>
-        </Grid>
+            <Footer />
+        </>
     );
 }
 export default Services;
