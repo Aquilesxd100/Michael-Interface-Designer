@@ -1,11 +1,12 @@
 import { styled, Box, Typography } from "@mui/material";
 import { temaPadrao } from "../temas/temaPadrao";
 export const CardBox = styled(Box)(() => ({
-    padding: "40px 20px",
+    padding: "30px 6px",
     borderRadius: "35px",
     backgroundImage: temaPadrao.gradiente.padrao,
     textAlign: "center",
-    margin: "10px"
+    margin: "6px",
+    boxShadow: " rgba(0, 0, 0, 0.6) 1px 2px 1px"
 }));
 export const iconeCard = {
     height: "45px",
@@ -14,11 +15,12 @@ export const iconeCard = {
 };
 export const Titulo = styled(Typography)(() => ({
     fontFamily: "neometric-bold",
-    fontSize: "27px",
+    fontSize: "22px",
     marginBottom: "8px",
 }));
 export const Texto = styled(Typography)(() => ({
-    maxWidth: "280px",
+    fontSize: "14px",
+    maxWidth: "25vw",
     fontFamily: "neometric-light",
     color: "#FADEC9",
 }));

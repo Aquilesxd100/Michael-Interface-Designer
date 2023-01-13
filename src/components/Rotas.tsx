@@ -13,7 +13,7 @@ function Rotas() {
                 <Route path="/home" element={<Home />} /> 
                 <Route path="/about" element={<About />} />
                 <Route path="/services" element={<Services />} /> 
-                {/* <Route path="/portfolio" element={<Portfolio />} /> */}                       
+                <Route path="/portfolio" element={<Portfolio />} />                       
             </Routes>
         </BrowserRouter>
     );
