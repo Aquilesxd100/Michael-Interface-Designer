@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Michael-Interface-Designer/static/css/main.fbf42557.css",
+    "main.js": "/Michael-Interface-Designer/static/js/main.43a3c420.js",
+    "static/media/garota.png": "/Michael-Interface-Designer/static/media/garota.b6a61c894750aa385229.png",
+    "static/media/unsplash2.png": "/Michael-Interface-Designer/static/media/unsplash2.2f03e252fde0e19d388d.png",
+    "static/media/unsplash5.png": "/Michael-Interface-Designer/static/media/unsplash5.6e9c60922a2025269d9b.png",
+    "static/media/neometric-bold.otf": "/Michael-Interface-Designer/static/media/neometric-bold.91263480117d76bdb9b3.otf",
+    "static/media/neometric-light.otf": "/Michael-Interface-Designer/static/media/neometric-light.20289fad7ed72bdac749.otf",
+    "static/media/unsplash4.png": "/Michael-Interface-Designer/static/media/unsplash4.d28c0098767c28246c7f.png",
+    "static/media/unsplash3.png": "/Michael-Interface-Designer/static/media/unsplash3.7839414edf478a77b3fd.png",
+    "static/media/unsplash1.png": "/Michael-Interface-Designer/static/media/unsplash1.1efc14e49ce9e550b7af.png",
+    "static/media/unsplash6.png": "/Michael-Interface-Designer/static/media/unsplash6.c82bff91b4dae6993f4c.png",
+    "static/media/dots.png": "/Michael-Interface-Designer/static/media/dots.e938efd9101748557f4d.png",
+    "static/media/blooming.otf": "/Michael-Interface-Designer/static/media/blooming.c407aad1f7a0a401275c.otf",
+    "index.html": "/Michael-Interface-Designer/index.html",
+    "main.fbf42557.css.map": "/Michael-Interface-Designer/static/css/main.fbf42557.css.map",
+    "main.43a3c420.js.map": "/Michael-Interface-Designer/static/js/main.43a3c420.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbf42557.css",
+    "static/js/main.43a3c420.js"
+  ]
+}
