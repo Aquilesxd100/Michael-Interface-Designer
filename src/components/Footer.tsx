@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { memo } from "react";
 import { Cabecalho, perfilCabecalho, TextoFooter, Destaque } from "./FooterStyles";
 import { SubTitulo, Texto } from "../styles/estilos";
 import { Avatar, Grid } from "@mui/material";
@@ -22,4 +22,4 @@ function Footer() {
         </Cabecalho>
     )
 }
-export default Footer;
+export default memo(Footer);

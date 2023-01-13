@@ -1,3 +1,4 @@
+import { memo } from "react";
 import { Link } from "react-router-dom";
 import { Avatar, Typography, Grid } from "@mui/material";
 import { imgAvatar } from "./NavbarStyles";
@@ -32,4 +33,4 @@ function Navbar() {
         </Header>
     );
 }
-export default Navbar;
+export default memo(Navbar);
