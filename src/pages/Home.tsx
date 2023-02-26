@@ -2,7 +2,7 @@ import { Typography, SvgIcon, Grid } from "@mui/material";
 import EastIcon from '@mui/icons-material/East';
 import perfil from "../images/garota.png";
 import { textoHome, ImgPerfil, iconeFlecha, FooterRedes, ImgRedes, nomeLateral } from "./HomeStyles";
-import dribleeIMG from "../images/vector.png";
+import dribleeIMG from "../images/Vector.png";
 import mediumIMG from "../images/Shape.png";
 import behanceIMG from "../images/Vector-Be.png";
 import linkedinIMG from "../images/path18.png";
@@ -14,31 +14,31 @@ const Icone = () => (
         <stop offset={1} stopColor="rgba(234,103,94,1)" />
       </linearGradient>
     </svg>
-    <EastIcon sx={ iconeFlecha } />
+    <EastIcon sx={iconeFlecha} />
   </>
 )
 function Home() {
   return (
     <>
-      <Typography variant="h1" sx={{ fontWeight: "bold" }}>Michael<br/> User Interface<br/> Designer</Typography>
-      <Typography variant="subtitle1" sx={ textoHome }>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.</Typography>
+      <Typography variant="h1" sx={{ fontWeight: "bold" }}>Michael<br /> User Interface<br /> Designer</Typography>
+      <Typography variant="subtitle1" sx={textoHome}>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan.</Typography>
       <a className="destaque" href="https://mail.google.com" target="_blank">
-        <Typography variant="caption">Let's Talk <SvgIcon component={Icone}/></Typography>
+        <Typography variant="caption">Let's Talk <SvgIcon component={Icone} /></Typography>
       </a>
       <ImgPerfil src={perfil} />
-      <Typography variant="h5" sx={ nomeLateral }>Michael</Typography>
+      <Typography variant="h5" sx={nomeLateral}>Michael</Typography>
       <FooterRedes container>
         <Grid item>
-          <ImgRedes src={ dribleeIMG } />
+          <ImgRedes src={dribleeIMG} />
         </Grid>
         <Grid item>
-          <ImgRedes src={ linkedinIMG } />
+          <ImgRedes src={linkedinIMG} />
         </Grid>
         <Grid item>
-          <ImgRedes src={ mediumIMG } />
+          <ImgRedes src={mediumIMG} />
         </Grid>
         <Grid item>
-          <ImgRedes src={ behanceIMG } />
+          <ImgRedes src={behanceIMG} />
         </Grid>
       </FooterRedes>
     </>
